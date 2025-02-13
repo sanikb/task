@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.footercontainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+
+}
+
+.bookdemo-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(175, 198, 206);
+    height: 650px;
+}
+
+.book-text {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.heding h1 {
+    font-size: 40px;
+    color: black;
+    font-weight: 400px;
+}
+
+.sub-heding {
+    margin-top: 25px;
+}
+
+.sub-heding p {
+    font-size: 18px;
+    color: black;
+    line-height: 30px;
+
+}
+
+.sub-heding p a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+.btn button {
+    text-decoration: none;
+    color: white;
+    background-color: #0040ff;
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+.btn button:hover{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.right-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    position: relative;
+}
+
+.right-img img {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.img2 {
+    position: absolute;
+    right: 300px;
+    /* Moves image to overlap */
+    top: 50px;
+    background-color: white;
+    padding: 7px;
+}
+
+.img1 {
+    background-color: white;
+    padding: 7px;
+}
+.footer-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.footer-sec{
+    margin-top:50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+   
+}
+.footer-sec h3{
+    color: black;
+}
+.footer-sec a{
+    text-align:left;
+    text-decoration: none;
+    color: black;
+    line-height:27px;
+}
+.footer-sec p{
+    text-align:left;
+    text-decoration: none;
+    color: black;
+}
+.footer-hr{
+    margin-top: 12px;
+    width:76%;
+    height:4px;
+    color: white;
+   margin-left: 190px;
+   border-radius:2px;
+}
+.copyright-sec{
+    margin-top:7px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright-text p{
+    font-weight: bold;
+    color: black;
+    margin-left:186px;
+}
+.social-media{
+margin-right: 170px;
+margin-bottom:20px;
+}
+.social-media img{
+    width:40px;
+    height: 40px;
+    margin: 0px 5px;
+}
